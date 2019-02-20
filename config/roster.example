@@ -1,0 +1,12 @@
+# 20-25 hosts
+{% set hosts = [
+  ...,
+  ...
+] %}
+
+{% for host in hosts %}
+{{ host }}:
+  host: {{ host }}
+  sudo: true
+  priv: sshkey
+{% endfor %}

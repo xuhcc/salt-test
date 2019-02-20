@@ -1,0 +1,13 @@
+root_dir: .
+pki_dir: config/pki
+cachedir: config/cache
+log_file: config/log
+gpg_keydir: gpgkeys/
+
+file_roots:
+  base:
+    - states
+
+pillar_roots:
+  base:
+    - pillar

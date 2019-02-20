@@ -1,0 +1,9 @@
+.vagrant
+venv
+config/cache
+config/pki
+config/ssh_log
+config/roster
+gpgkeys
+sshkey
+pillar/secrets.sls

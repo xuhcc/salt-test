@@ -1,0 +1,6 @@
+salt-ssh:
+  config_dir: config
+  log_level: warning
+  ssh_log_file: config/ssh_log
+  ssh_max_procs: 25
+  ignore_host_keys: true
