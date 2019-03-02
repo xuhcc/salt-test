@@ -18,5 +18,5 @@ echo -n "testvalue" | gpg --homedir gpgkeys --armor --batch --trust-model always
 4. Run:
 
 ```
-salt-ssh '*' state.single cmd.run name='echo 1'
+salt-ssh '*' state.apply
 ```
